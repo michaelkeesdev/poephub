@@ -1,0 +1,22 @@
+.poep-game {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.poep-board {
+  display: flex;
+  background-color: red;
+  flex-grow: 1;
+  height: 80vh;
+}
+
+.poep-card-set {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  background-color: blue;
+  height: 20vh;
+  gap: 8px;
+}

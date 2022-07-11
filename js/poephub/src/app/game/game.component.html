@@ -1,0 +1,11 @@
+<div class="poep-game">
+  <div class="poep-board"></div>
+
+  <div class="poep-card-set">
+    <poep-card
+      *ngFor="let card of game.user1.cards"
+      [cardId]="card.name"
+      [disabled]="!card.selectable"
+    ></poep-card>
+  </div>
+</div>
